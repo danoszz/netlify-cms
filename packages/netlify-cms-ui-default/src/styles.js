@@ -37,6 +37,7 @@ const colorsRaw = {
   grayDark: '#313d3e',
   blue: '#3a69c7',
   blueLight: '#e8f5fe',
+  blueDark: '#0c1e24',
   green: '#005614',
   greenLight: '#caef6f',
   brown: '#754e00',
@@ -60,6 +61,7 @@ const colors = {
   textLight: colorsRaw.white,
   textLead: colorsRaw.grayDark,
   background: colorsRaw.grayLight,
+  backgroundDark: colorsRaw.blueDark,
   foreground: colorsRaw.white,
   active: colorsRaw.blue,
   activeBackground: colorsRaw.blueLight,
@@ -87,11 +89,13 @@ const lengths = {
   topBarHeight: '56px',
   inputPadding: '16px 20px',
   borderRadius: '5px',
+  borderRadiusCard: '8px',
   richTextEditorMinHeight: '300px',
   borderWidth: '2px',
   topCardWidth: '682px',
   pageMargin: '28px 18px',
   objectWidgetTopBarContainerPadding: '0 14px 14px',
+  magicNumber: '48px',
 };
 
 const borders = {

@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
-import Icon from './Icon';
-import { buttons, shadows, lengths, colors } from './styles';
-import GoBackButton from './GoBackButton';
+import Icon from '../Icon';
+import { buttons, shadows, lengths, colors } from '../styles';
+import GoBackButton from '../GoBackButton';
 
 const StyledAuthenticationPage = styled.section`
   display: flex;

@@ -5,7 +5,7 @@ import Loader from './Loader';
 import FieldLabel from './FieldLabel';
 import IconButton from './IconButton';
 import Toggle, { ToggleContainer, ToggleBackground, ToggleHandle } from './Toggle';
-import AuthenticationPage from './AuthenticationPage';
+import AuthenticationPage from './AuthenticationPage/AuthenticationPage';
 import WidgetPreviewContainer from './WidgetPreviewContainer';
 import ObjectWidgetTopBar from './ObjectWidgetTopBar';
 import GoBackButton from './GoBackButton';
